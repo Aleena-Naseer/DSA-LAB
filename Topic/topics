@@ -38,7 +38,10 @@
   3-binary search tree
 8-graph
   1-BFT
-  2-DFT
+  2-DFT 
+     1-preorder traversal
+     2-postorder traversal
+     3-inorder traversal
 9-searching 
   1-linear search
   2-binary search
