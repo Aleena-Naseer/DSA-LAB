@@ -17,17 +17,12 @@ void displayLinkedList(Node* head) {
         ptr = ptr->next;
     }
 cout << endl << "**head address: " << head << endl;
-    cout << "--------------------------" << endl;
     cout << "head content: " << head<< endl;
-    cout << "--------------------------" << endl;
     cout << "*ptr address:* @" << &head << endl;
-    cout << "--------------------------" << endl;
     cout << "ptr content: " << head << endl;
-    cout << "----------------------" << endl;
     ptr = head;
     while (ptr != NULL) {
         cout << "ptr->data: " << ptr->data << endl;
-        cout << "----------------------" << endl;
         cout << "ptr: " << ptr << endl;
         cout << "ptr->next: " << ptr->next << endl;
         ptr = ptr->next;
